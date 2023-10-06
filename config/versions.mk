@@ -1,8 +1,8 @@
 # Versioning System For Bliss
 # Bliss RELEASE VERSION
-BLISS_VERSION_MAJOR = 16
-BLISS_VERSION_MINOR = 9.1
-BLISS_CODENAME = Typhoon
+BLISS_VERSION_MAJOR = 17
+BLISS_VERSION_MINOR = 0
+BLISS_CODENAME = Universe
 #BLISS_VERSION_MAINTENANCE = Beta
 
 ifneq ($(SIGNING_KEYS),)
@@ -10,7 +10,7 @@ ifneq ($(SIGNING_KEYS),)
 endif
 
 # Bliss Android version
-BLISS_VERSION_STATIC = 13.0
+BLISS_VERSION_STATIC = 14.0
 
 # Set Bliss Build Variant
 BLISS_BUILD_VARIANT ?= vanilla
